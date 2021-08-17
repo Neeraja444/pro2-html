@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Trade</title>
+<style>
+body {
+  background-image: url('http://www.blog.arcaderetrogaming.com/wp-content/uploads/2011/01/tRADE_SMALL.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+iframe {
+background-color: white;
+}
+table{
+font-family: arial, sans-serif;
+}
+td, th {
+  text-align: center;
+  padding: 8px;
+}
+</style>
+<script type="text/javascript">
+function myCanvas(colo) {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById(colo);
+  ctx.drawImage(img,10,10);
+}
+</script>
+</head>
+<body text="white">
+<h1>The Rules of Trade</h1>
+<h2>List Of trade and its rules</h2>
+<ol>
+<li>
+<h3>Trade</h3>
+<p>
+About the iFOREX group
+A trusted service provider for over 25 years
+</p>
+<dl>
+<dt>Four main commitments set us apart:</dt>
+<dd>
+<ul>
+<li>Our Educational and Training Resources allow our clients to advance both their knowledge and skills.,</li>
+<li>Our cybersecurity, data safety and client privacy policies are set to the highest standards and regulations, so that our clients feel protected at all times.</li>
+<li>Our proprietary platform enables you to access hundreds of instruments from all corners of the globe, while providing localized solutions in your native language.
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+<h4 id="link">link for more information:</h4>
+
+<iframe src="https://www.trade.com">width="500" height="310" title="table"></iframe><br><br>
+<table>
+<caption>Two teams in trade:</caption>
+<tr>
+<th>Buyer</th>
+<th>seller</th>
+</tr>
+<tr>
+<td><img id="black" usemap="#black"  src="https://www.wita.org/wp-content/uploads/2018/07/170613150857-trade-deficit-super-169-e1533065686893-1100x450.jpg" 
+alt="black" style ="width:42px;height:42px;"></td>
+<td><img id="white" usemap="#white" src="https://cdn.slidesharecdn.com/ss_thumbnails/internationaltrade-160727172816-thumbnail-4.jpg?cb=1469640533" 
+alt="white" style ="width:42px;height:42px;"></td>
+</tr>
+</table>
+<map name="buyer">
+<area shape="rect" coords="0,0,133,226" alt="buyer" onclick="myCanvas('buyer')">
+</map>
+<map name="seller">
+<area shape="rect" coords="0,0,133,226" alt="seller" onclick="myCanvas('seller')">
+</map>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;"></canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("HELLO TRADE",10,50);
+</script>
+<h5>Thank You!</h5>
+</body>
+</html>
